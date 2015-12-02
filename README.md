@@ -1,2 +1,2 @@
-# ligniteoil.github.io
-Lignite Oil Company Website
+# Lignite Oil Company Website
+www.LigniteOil.com
