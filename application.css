@@ -182,16 +182,25 @@ body {
 }
 
 #box1 {
-    background: linear-gradient( rgba(240, 243, 246, 0.88), rgba(240, 243, 246, 0.88) ), url("bg.jpg") no-repeat center;
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     min-height: 680px;
-    /* background-position: right 0px bottom 180px; */
-    /* padding-bottom: 180px; */
-    /*margin-bottom: -200px;*/
     background-position: left 0px bottom 0px;
-
 }
+
+
+
+ background: url("images/backgroundimage.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+
+
+
 
 #box2 {
     background-color: white;
@@ -200,7 +209,7 @@ body {
 }
 
 #box3 {
-    background: linear-gradient( rgba(24, 115, 178, 0.85), rgba(24, 115, 178, 0.85) ), url("bg2.jpg") no-repeat center;
+    background: url("bg2.jpg");
     color: white;
     height: 425px;
     background-position: left 0px bottom 0px;
