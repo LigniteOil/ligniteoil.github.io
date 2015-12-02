@@ -1,12 +1,5 @@
 /* CSS reset */
 
-  .wf-loading {
-    visibility: hidden;
-  }
-
-  .wf-active, .wf-inactive {
-    visibility: visible;
-  }
   
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
     margin:0;
@@ -53,7 +46,7 @@ abbr,acronym { border:0;
 i { font-style: normal;}
 
 body { 
-    font-family: proxima-nova;
+    font-family: proxima-nova, helvetica, arial;
     color: #3f4145; 
 }
 
@@ -186,7 +179,6 @@ body {
 
 
 #content-wrapper { 
-    height: 100%;
 }
 
 #box1 {
@@ -198,6 +190,7 @@ body {
     /* padding-bottom: 180px; */
     /*margin-bottom: -200px;*/
     background-position: left 0px bottom 0px;
+
 }
 
 #box2 {
@@ -234,7 +227,6 @@ body {
     font-size: 48px;
     font-weight: 600;
     line-height: 1.6;
-    font-family: proxima-nova
 }
 
 .blue-button {
@@ -272,7 +264,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 425px;
-    margin-top: 180px;
+    padding-top: 180px;
     font-size: 18px;
 }
 
@@ -296,7 +288,10 @@ body {
     color: #4A5054;
 }
 
-#box5 .medium-heading {color: white;}
+#box5 .medium-heading {
+    color: white;
+    text-decoration: none;
+}
 
 .small-heading {
     text-align: center;
@@ -541,7 +536,7 @@ i#icons8-message-filled {
 
     .button-wrap {
     width: 390px;
-    margin-top: 160px;
+    padding-top: 160px;
     font-size: 16px;
     }
 
@@ -665,7 +660,7 @@ i#icons8-message-filled {
 
     .button-wrap {
     width: 360px;
-    margin-top: 150px;
+    padding-top: 150px;
     font-size: 15px;
     }
 
@@ -822,7 +817,7 @@ i#icons8-message-filled {
 
     .button-wrap {
     width: 340px;
-    margin-top: 130px;
+    padding-top: 130px;
     font-size: 14px;
     }
 
@@ -1047,7 +1042,7 @@ i#icons8-message-filled {
 
     .button-wrap {
     width: 310px;
-    margin-top: 110px;
+    padding-top: 110px;
     font-size: 13px;
     }
 
