@@ -203,7 +203,7 @@ body {
     height: 425px;
     background-position-x: 50%;
     background-position-y: 100%;
-    background-position: left 0px bottom 0px;
+    /*background-position: left 0px bottom 0px;*/
     display: table;
     width: 100%;
 }
