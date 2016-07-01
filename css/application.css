@@ -726,6 +726,12 @@ i#icons8-oil-industry {
 
 }
 
+@media (max-width: 390px) {
+    .oils-group .text {
+        font-size: 18px;
+    }
+}
+
 
 
 
@@ -814,7 +820,7 @@ span.line {
 
 }
 
-@media (max-width: 395px) {
+@media (max-width: 390px) {
     .store-icon {
     font-size: 20px;
     margin-right: 15px;
@@ -824,6 +830,16 @@ span.line {
     .store-info {
         font-weight: 600;
     }
+
+    .line-seperator-store {
+        display: block;
+    }
+
+    .store-info {
+    line-height: 1.5;
+    margin-top: 35px;
+    }
+
 }
 
 
