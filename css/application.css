@@ -685,6 +685,10 @@ i#icons8-oil-industry {
     border-radius: 5px;
 }
 
+.line-seperator {
+    display: none;
+}
+
 
 /* BOX 4 MEDIA QUERIES */
 
@@ -702,19 +706,23 @@ i#icons8-oil-industry {
     }
 
     .line-seperator {
-    height: 3px;
-    width: 90px;
-    background-color: #c9d0d4;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-radius: 5px;
+        height: 3px;
+        width: 90px;
+        background-color: #c9d0d4;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-radius: 5px;
     }
 
     .oils-wrap {
-    margin-top: 35px;
-}
+        margin-top: 35px;
+    }
+
+    .line-seperator-mobile {
+        display: block;
+    }
 
 }
 
