@@ -788,6 +788,10 @@ span.line {
     vertical-align: middle;
 }
 
+.line-seperator-store {
+    display: none;
+}
+
 /* BOX 5 MEDIA QUERIES */
 
 @media (max-width: 900px) {
