@@ -212,10 +212,16 @@ body {
     }
 }
 
-@media (max-width: 850px) {
+/*@media (max-width: 850px) {
     .top-bar-right .menu {
         display: none;
 
+    }
+}*/
+
+@media (max-width: 850px) {
+    .main-links{
+        display: none;
     }
 }
 
