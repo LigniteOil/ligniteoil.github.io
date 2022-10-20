@@ -37,6 +37,10 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+	     <form enctype="multipart/form-data" method="post" id="loginform" action="https://www.kotapay.com/payport.icp">
+                        <input type="hidden" name="cred" value="0x37EBE2297535D93378343C3A04799232DBF6EA4A">
+                        <input type="hidden" name="style" value="ligoil">
+             </form>
 
         <div id="page-wrapper">
            
@@ -48,17 +52,10 @@
 				<div id="top-bar-right" class="top-bar-right">
 	    			<ul class="menu">
 	    				<li><a href="#box2">Deliveries</a></li>
-					    <li><a href="#box4">Oils & Lubricants</a></li>
-					    <li><a href="#box5">C-store</a></li>	
-                        
-                        <form enctype="multipart/form-data" method="post" id="loginform" action="https://www.kotapay.com/payport.icp">
-                        <input type="hidden" name="cred" value="0x37EBE2297535D93378343C3A04799232DBF6EA4A">
-                        <input type="hidden" name="style" value="ligoil">
-                        </form>
-
-                        <li><a href="javascript:document.getElementById('loginform').submit();">Pay Bill</a></li>
-
-					    <li><a href="#box6">Contact</a></li>		
+					<li><a href="#box4">Oils & Lubricants</a></li>
+					<li><a href="#box5">C-store</a></li>	
+                        		<li><a href="javascript:document.getElementById('loginform').submit();">Pay Bill</a></li>
+					<li><a href="#box6">Contact</a></li>		
 	    			</ul>
     			</div>
         	</div>
