@@ -196,7 +196,7 @@ body {
 }
 
 /*TOP-BAR MEDIA QUERIES*/
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .top-bar-right .menu {
         font-size: 16px;
         padding-right: 10px;
